@@ -2,27 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [Tap2Act] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [NextX]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Sanmaya ] - [Govt. Engineering College,Idukki]
+- Member 2: [Arathy] - [Govt. Engineering College,Idukki]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[https://arathyac.github.io/Tap2Act/]
 
 ### Project Description
-[2-3 lines about what your project does]
+[Tap2Act to act is a productivity web application that suggests mood based activities and track user progress through streaks ,achievements and daily challenges]
 
 ### The Problem statement
-[What problem are you solving?]
+[Many individuals struggle with boredom and low productivity due to lack of direction in idle moments. A simple system is needed to suggest context-based micro-actions and motivate users through gamification and progress tracking.]
 
 ### The Solution
-[How are you solving it?]
+[Tap2Act is a mood and location-based productivity web app that suggests small actionable tasks and encourages completion through streak tracking, achievements, daily challenges, and gamified feedback.]
 
 ---
 
@@ -31,32 +31,33 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: [e.g., JavaScript,HTML, CSS]
+- Tools used: [e.g., VS Code, Git]
 
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
 
----
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Mood based activity suggestion
+- Feature 2: Interactive buzzer system
+- Feature 3: Task completion checkpoint
+- Feature 4: Responsive Modern UI
 
 ---
 
 ## Implementation
-
+Frontend Structure
+User Interface Design
+Activity Generation Logic
+Task Completion System
+Gamification Mechanism
 ### For Software:
-
+System Architecture
+User Interface Development
+Activity Recommendation Engine
+Data Storage and State Management
+Deployment and Testing
 #### Installation
 ```bash
 [Installation commands - e.g., npm install, pip install -r requirements.txt]
@@ -83,13 +84,13 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1](img1.png)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](img2.png)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3](img3.png)
 *Add caption explaining what this shows*
 
 #### Diagrams
