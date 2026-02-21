@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap2Act</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <body>
+
+    <!-- Screen 1 -->
+    <div class="screen active" id="screen1">
+        <h1 class="big-title">Tap2Act</h1>
+        <p class="tagline">Tap. Decide. Act.</p>
+        <p class="hint">Tap anywhere to begin</p>
+    </div>
+
+    <!-- Screen 2 -->
+    <div class="screen" id="screen2">
+        <h2>Select Your Mood</h2>
+
+        <select id="mood">
+            <option value="Lazy">😴 Lazy</option>
+            <option value="Normal">🙂 Normal</option>
+            <option value="Motivated">🔥 Motivated</option>
+            <option value="Stressed">😵 Stressed</option>
+        </select>
+
+        <h2>Select Location</h2>
+
+        <select id="location">
+            <option value="Classroom">🏫 Classroom</option>
+            <option value="Office">🏢 Office</option>
+            <option value="Home">🏠 Home</option>
+            <option value="Outside">🌳 Outside</option>
+        </select>
+
+        <button onclick="goToBuzzer()">Continue</button>
+    </div>
+    <!-- Screen 3 -->
+<div class="screen" id="screen3">
+    <h2>Press The Buzzer</h2>
+    <button onclick="toggleTheme()" class="theme-btn">
+    🌙 Toggle Dark Mode
+</button>
+    <div class="daily-box">
+    <h3>🎯 Today's Challenge</h3>
+    <p id="dailyChallenge"></p>
+
+</div>
+<div class="stats-box">
+    <p>📊 Total Taps: <span id="totalTaps">0</span></p>
+    <p>🏆 Best Streak: <span id="bestStreak">0</span></p>
+</div>
+<div class="badge-box">
+    <h3>🏆 Achievements</h3>
+    <p id="badgeText">No achievements yet</p>
+</div>
+    <p class="streak">🔥 Streak: <span id="streakCount">0</span></p>
+    <div class="progress-bar">
+    <div id="progressFill" class="progress-fill"></div>
+</div>
+
+    <div class="buzzer" onclick="suggestTask()">
+        TAP
+    </div>
+
+    <p id="resultText"></p>
+    <div class="completion-box" id="completionBox" style="display:none;">
+    <button onclick="completeTask()" class="complete-btn">
+        ✅ Mark as Completed
+    </button>
+    <button onclick="skipTask()" class="skip-btn">
+        ❌ Skip
+    </button>
+</div>
+    <button onclick="goBack()">Change Mood / Location</button>
+    <button onclick="resetStreak()" class="reset-btn">
+    Reset Progress 🔄
+</button>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</body>
+</html>
